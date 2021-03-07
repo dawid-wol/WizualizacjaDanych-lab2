@@ -79,6 +79,13 @@ while i < 10:
 print(lista)
 
 #9
+lista_123 = [1,2,3,4,5,6]
+for x in lista_123:
+   if x % 2 == 0 and x < 6:
+       print("E")
+   else:
+       if x < 6:
+        print("EEEEEE")
 
 #10
 print("Oblicz pierwiastek z: ")
