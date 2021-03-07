@@ -36,6 +36,22 @@ for char in zdanie:
     char = char.lower()
     if char == "a":
         litera_a+=1
-print("Litera a występuje ", litera_a, "razy")
+print("Litera a występuje ", litera_a, " razy")
 
 #Zad5
+
+#Zad6
+print("Podaj trzy liczby:")
+x = input()
+y = input()
+z = input()
+najwieksza = 0
+if x > y and x > z:
+    najwieksza = x
+else:
+    if y > z:
+        najwieksza = y
+    else:
+        najwieksza = z
+
+print("najwieksza to: ", najwieksza)
