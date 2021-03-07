@@ -59,6 +59,13 @@ else:
 print("najwieksza to: ", najwieksza)
 
 #zad7
+liczby = [2, 7.2, 8.4, 6, 5]
+idx = 0
+for x in liczby:
+    liczby[idx] = x ** 2
+    idx += 1
+
+print(liczby)
 
 #Zad8
 print("Podaj 10 liczb:")
@@ -74,6 +81,7 @@ print(lista)
 #9
 
 #10
+print("Oblicz pierwiastek z: ")
 e = float(input())
 if e < 0:
     print("liczba ujemna pierwiastek nie istnieje")
