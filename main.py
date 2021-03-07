@@ -15,3 +15,14 @@ slownik["oprac."] = "opracowanie"
 slownik["tlum."] = "tlumaczenie"
 print(slownik)
 #Zad3
+gry = {
+    "GTAV" : "Grand Theft Auto V",
+    "CSGO" : "Counter Strike Global Offensive",
+    "MC" : "Minecraft",
+    "LOL" : "League of Legends",
+    "WOW" : "World of Warcraft",
+    "W3" : "The Witcher 3"
+}
+ilosc = len(gry)
+print(ilosc)
+#Zad4
