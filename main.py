@@ -78,7 +78,7 @@ while i < 10:
         lista.append(a)
 print(lista)
 
-#9
+#Zad9
 lista_123 = [1,2,3,4,5,6]
 for x in lista_123:
    if x % 2 == 0 and x < 6:
@@ -87,7 +87,7 @@ for x in lista_123:
        if x < 6:
         print("EEEEEE")
 
-#10
+#Zad10
 print("Oblicz pierwiastek z: ")
 e = float(input())
 if e < 0:
