@@ -1,3 +1,5 @@
+import math
+
 #Zad1
 sporty = ["pilkanozna","siatkowka","koszykowka"]
 print(sporty)
@@ -42,9 +44,9 @@ print("Litera a występuje ", litera_a, " razy")
 
 #Zad6
 print("Podaj trzy liczby:")
-x = input()
-y = input()
-z = input()
+x = int(input())
+y = int(input())
+z = int(input())
 najwieksza = 0
 if x > y and x > z:
     najwieksza = x
@@ -55,3 +57,26 @@ else:
         najwieksza = z
 
 print("najwieksza to: ", najwieksza)
+
+#zad7
+
+#Zad8
+print("Podaj 10 liczb:")
+i = 0
+lista = []
+while i < 10:
+    a = int(input())
+    i += 1
+    if a % 2 == 0 :
+        lista.append(a)
+print(lista)
+
+#9
+
+#10
+e = float(input())
+if e < 0:
+    print("liczba ujemna pierwiastek nie istnieje")
+else:
+    wynik = math.sqrt(e)
+    print(wynik)
